@@ -7,6 +7,12 @@ chrome.extension.sendMessage({}, function(response) {
 		// This part of the script triggers when page is done loading
 		console.log("Hello. This message was sent from scripts/inject.js");
 		// ----------------------------------------------------------
+		
+		const thisIsATest = ()=>{
+		  console.log("this is a test")
+		}
+		
+		thisIsATest();
 
 	}
 	}, 10);
